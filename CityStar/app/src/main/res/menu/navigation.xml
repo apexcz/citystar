@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_directions_bus_black_24dp"
+        android:title="@string/Plan"/>
+
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_ticket_black_24dp"
+        android:title="@string/tickets"/>
+
+    <item
+        android:id="@+id/share_ride"
+        android:icon="@drawable/ic_speaker_phone_black_24dp"
+        android:title="@string/share_ride"/>
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_perm_identity_black_24dp"
+        android:title="@string/profile"/>
+
+
+</menu>

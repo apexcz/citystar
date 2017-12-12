@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CityStar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_city_chooser">CityChooserActivity</string>
+    <string name="skip">Skip</string>
+    <string name="vote_city">Vote a city to explore</string>
+    <string name="pick_city">Pick A City</string>
+    <string name="use_current_location">Use current location</string>
+    <string name="events">Events</string>
+    <string name="profile">Profile</string>
+    <string name="searching_for_events">Searching for events around me...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="live_times_tickets">Live times &amp; tickets</string>
+    <string name="from">from</string>
+    <string name="departure_station">Departure station</string>
+    <string name="destination_station">Destination station</string>
+    <string name="to">to</string>
+    <string name="single">Single</string>
+    <string name="return_text">Return</string>
+    <string name="open_return">Open return</string>
+    <string name="outbound">Outbound</string>
+    <string name="date_time">Today,18:45</string>
+    <string name="returning">Returning</string>
+    <string name="not_selected">Not selected</string>
+    <string name="passengers">Passengers</string>
+    <string name="no_railcards">No Railcards</string>
+    <string name="railcards">Railcards</string>
+    <string name="tickets">Tickets</string>
+    <string name="Plan">Plan</string>
+    <string name="find_buses">Find Buses</string>
+    <string name="download_ticket">Download Ticket</string>
+    <string name="manage_booking">Manage Booking</string>
+    <string name="sgl">SGL</string>
+    <string name="share_ride">Share</string>
+    <string name="post_ride_label">Share your car with others, make more money and who knows, friends too!</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="departure_time">Departure time</string>
+    <string name="request">Request</string>
+    <string name="share">Share</string>
+</resources>

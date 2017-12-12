@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.example.chineduoty.aroundme.fragments.EventsAroundFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/events_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="com.example.chineduoty.aroundme.fragments.EventsAroundFragment"
+        tools:listitem="@layout/fragment_events"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/pulsator_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <pl.bclogic.pulsator4droid.library.PulsatorLayout
+            android:id="@+id/pulsator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:pulse_color="@color/colorPrimary"
+            app:pulse_count="4"
+            app:pulse_duration="7000"
+            app:pulse_interpolator="Linear"
+            app:pulse_repeat="0"
+            app:pulse_startFromScratch="false"></pl.bclogic.pulsator4droid.library.PulsatorLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/searching_for_events"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimaryDark"
+            fontPath="fonts/Titillium_Regular.otf"/>
+    </LinearLayout>
+
+</FrameLayout>
